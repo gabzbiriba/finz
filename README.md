@@ -3,8 +3,7 @@
 
 Finz é uma aplicação web desenvolvida em React para controle de receitas e despesas pessoais. Com uma interface intuitiva e responsiva, permite acompanhar suas transações, visualizar resumos financeiros e analisar seus gastos por categoria.
 
-*Desenvolvido por:* Gabrielle Arruda Rodrigues (2312130129)
-Disciplina: Tecnologias Web
+**Desenvolvido por:** Gabrielle Arruda Rodrigues (2312130129)                                                                             **Disciplina:** Tecnologias Web
 
 ---
 
