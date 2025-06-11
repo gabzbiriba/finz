@@ -1,0 +1,100 @@
+{
+  "transacoes": [
+    {
+      "id": "1",
+      "descricao": "Salário",
+      "valor": 4800,
+      "tipo": "receita",
+      "categoria": "Outros",
+      "data": "2024-06-01"
+    },
+    {
+      "id": "2",
+      "descricao": "Freelance site",
+      "valor": 1200,
+      "tipo": "receita",
+      "categoria": "Outros",
+      "data": "2024-06-05"
+    },
+    {
+      "id": "3",
+      "descricao": "Supermercado",
+      "valor": 650,
+      "tipo": "despesa",
+      "categoria": "Alimentação",
+      "data": "2024-06-06"
+    },
+    {
+      "id": "4",
+      "descricao": "Mensalidade escola",
+      "valor": 950,
+      "tipo": "despesa",
+      "categoria": "Educação",
+      "data": "2024-06-07"
+    },
+    {
+      "id": "5",
+      "descricao": "Cinema",
+      "valor": 75,
+      "tipo": "despesa",
+      "categoria": "Lazer",
+      "data": "2024-06-08"
+    },
+    {
+      "id": "6",
+      "descricao": "Aluguel",
+      "valor": 1500,
+      "tipo": "despesa",
+      "categoria": "Moradia",
+      "data": "2024-06-01"
+    },
+    {
+      "id": "7",
+      "descricao": "Farmácia",
+      "valor": 230,
+      "tipo": "despesa",
+      "categoria": "Saúde",
+      "data": "2024-06-04"
+    },
+    {
+      "id": "8",
+      "descricao": "Transporte público",
+      "valor": 180,
+      "tipo": "despesa",
+      "categoria": "Transporte",
+      "data": "2024-06-02"
+    },
+    {
+      "id": "9",
+      "descricao": "Compra de roupas",
+      "valor": 320,
+      "tipo": "despesa",
+      "categoria": "Vestuário",
+      "data": "2024-06-03"
+    },
+    {
+      "id": "10",
+      "descricao": "Venda de item usado",
+      "valor": 300,
+      "tipo": "receita",
+      "categoria": "Outros",
+      "data": "2024-06-10"
+    },
+    {
+      "id": "3443",
+      "descricao": "Sapato",
+      "valor": "100",
+      "tipo": "despesa",
+      "categoria": "Vestuário",
+      "data": "2025-06-11"
+    },
+    {
+      "id": "6ab1",
+      "descricao": "Pizza",
+      "valor": "80",
+      "tipo": "despesa",
+      "categoria": "Alimentação",
+      "data": "2025-06-11"
+    }
+  ]
+}
