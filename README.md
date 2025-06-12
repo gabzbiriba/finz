@@ -3,7 +3,11 @@
 
 Finz é uma aplicação web desenvolvida em React para controle de receitas e despesas pessoais. Com uma interface intuitiva e responsiva, permite acompanhar suas transações, visualizar resumos financeiros e analisar seus gastos por categoria.
 
-**Desenvolvido por:** Gabrielle Arruda Rodrigues (2312130129)                                                                             **Disciplina:** Tecnologias Web
+**Desenvolvido por:** 
+Gabrielle Arruda Rodrigues (2312130129)
+
+**Disciplina:** 
+Tecnologias Web
 
 ---
 
@@ -37,7 +41,7 @@ Finz é uma aplicação web desenvolvida em React para controle de receitas e de
 🎨 **Responsividade**
 - Layout adaptado para celular, tablet e desktop
 - Tabela reestruturada como cards no mobile
-- Estilização com cores personalizadas (#7ed957 e #1e0b00)
+- Estilização com cores personalizadas
 
 ---
 
@@ -56,28 +60,20 @@ Finz é uma aplicação web desenvolvida em React para controle de receitas e de
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/finz.git
-cd finz
+git clone https://github.com/gabzbiriba/finz.git
 ```
 
-### 2. Instale as dependências
+### 2. Abra o terminal e inicie o JSON Server
 
 ```bash
+cd back
+npx json-server db.json
+```
+
+### 3. Abra outro terminal e inicie o frontend
+
+```bash
+cd front
 npm install
+npm run dev
 ```
-
-### 3. Inicie o JSON Server
-
-```bash
-npx json-server --watch db.json --port 3001
-```
-
-> A API será exposta em: `http://localhost:3001/transacoes`
-
-### 4. Inicie o frontend
-
-```bash
-npm start
-```
-
-> A aplicação será executada em: `http://localhost:3000`

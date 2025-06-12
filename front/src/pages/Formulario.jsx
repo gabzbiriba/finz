@@ -1,7 +1,7 @@
 import InputTexto from "../components/InputTexto.jsx";
 import SelectTipo from "../components/SelectTipo.jsx";
 import SelectCategoria from "../components/SelectCategoria.jsx";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function Formulario({ transacao, onChange, onSubmit }) {
     
@@ -27,11 +27,6 @@ function Formulario({ transacao, onChange, onSubmit }) {
     }
   };
 
-  useEffect(() => {
-    if (!transacao.data) {
-      onChange({ target: { name: "data", value: new Date().toISOString().split("T")[0] } });
-    }
-  }, []);
 
   return (
     <form onSubmit={handleSubmit} noValidate>

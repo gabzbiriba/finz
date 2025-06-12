@@ -77,9 +77,10 @@ function Dashboard() {
         </div>
       </div>
 
-      <div style={{ marginTop: "2rem", maxWidth: "500px"}}>
-        <h3>Gráfico de Despesas por Categoria</h3>
-        <Doughnut data={chartData} />
+      <div style={{display: "flex",justifyContent: "center",alignItems: "center",maxWidth: "100%",margin: "0 auto",padding: "1rem"}}>
+        <div style={{ width: "100%", maxWidth: "400px" }}>
+          <Doughnut data={chartData} />
+        </div>
       </div>
     </main>
   );

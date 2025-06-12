@@ -9,7 +9,7 @@ function Nova() {
   const [transacao, setTransacao] = useState({
     descricao: "",
     valor: "",
-    tipo: "receita",
+    tipo: "",
     categoria: "",
     data: ""
   });
